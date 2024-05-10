@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
-                    android:src="@drawable/help" />
+                    android:src="@drawable/istifhaam" />
             </LinearLayout>
 
             <LinearLayout
@@ -72,7 +72,7 @@
                         android:id="@+id/medication"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/medication" />
+                        android:src="@drawable/medc" />
 
                     <ImageView
                         android:id="@+id/appointments"
@@ -101,13 +101,18 @@
                         android:layout_marginStart="15dp"
                         android:src="@drawable/tracking" />
                 </LinearLayout>
-
+                <ImageView
+                    android:id="@+id/ar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/vr" />
                 <ImageView
                     android:id="@+id/booster"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
-                    android:src="@drawable/booster" />
+                    android:src="@drawable/cccccccccccccccc" />
             </LinearLayout>
 
             <TextView

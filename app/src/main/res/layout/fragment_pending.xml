@@ -4,7 +4,440 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".thefive.todofragments.PendingFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:id="@+id/BigLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Household chores"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Wash dishes, set the table,\n prepare food, sweep the\n floor, dust, etc..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Physical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Walking, gardening and\n housework of everyday\n physical activity."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Household chores"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Wash dishes, set the table,\n prepare food, sweep the\n floor, dust, etc..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Physical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Walking, gardening and\n housework of everyday\n physical activity."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Household chores"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Wash dishes, set the table,\n prepare food, sweep the\n floor, dust, etc..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Physical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Walking, gardening and\n housework of everyday\n physical activity."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Household chores"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Wash dishes, set the table,\n prepare food, sweep the\n floor, dust, etc..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/daily_tasks_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="14dp"
+                    android:textSize="14sp"
+                    android:textColor="#161616"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Physical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#6F6F6F"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/ibm_plex_sans_semi_bold"
+                    android:text="Walking, gardening and\n housework of everyday\n physical activity."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="45dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="16dp"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/pend_btn" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/done_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
 
 
 </FrameLayout>

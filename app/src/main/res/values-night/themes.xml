@@ -32,5 +32,8 @@
         <item name="android:textColor">#161616</item>
         <item name="fontFamily">@font/ibm_plex_sans_semi_bold</item>
     </style>
+    <style name="MyProgressBarStyle" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@color/blue</item>
+    </style>
 
 </resources>

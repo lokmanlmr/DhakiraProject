@@ -34,4 +34,28 @@
         <item name="android:textColor">#161616</item>
         <item name="fontFamily">@font/ibm_plex_sans_semi_bold</item>
     </style>
+
+        <style name="MyCalendarTheme" parent="Theme.AppCompat.Light">
+            <item name="colorAccent">@color/blue</item>
+            <item name="fontFamily">@font/ibm_plex_sans_semi_bold</item>
+        </style>
+    <style name="MyDateTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/ibm_plex_sans_semi_bold</item>
+    </style>
+
+    <style name="MyWeekDayTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#8D8D8D</item>
+        <item name="android:fontFamily">@font/ibm_plex_sans_semi_bold</item>
+    </style>
+
+
+
+        <style name="MyProgressBarStyle" parent="android:Widget.ProgressBar.Horizontal">
+            <item name="android:progressDrawable">@drawable/my_progress_bar</item>
+
+        </style>
+
+
 </resources>

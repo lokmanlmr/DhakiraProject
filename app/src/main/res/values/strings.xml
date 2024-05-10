@@ -2,4 +2,12 @@
     <string name="app_name">Dhakira Project</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="objective_match_pairs_of_hidden_cards_with_the_same_images_on_the_game_board_n_ngameplay_click_on_two_cards_to_reveal_their_images_find_matching_pairs_to_keep_them_face_up_n_memory_challenge_test_your_memory_as_the_number_of_cards_increases_with_each_level_n_ntime_and_moves_record_your_time_and_moves_to_complete_the_game_efficiently_n_nlevels_unlock_more_challenging_levels_by_successfully_completing_each_one_improve_skills_memory_challenge_enhances_memory_focus_and_cognitive_abilities_n_ncustomisation_adjust_settings_to_match_your_preferences_and_skill_level_n_nbeat_records_challenge_yourself_to_beat_previous_records_and_achieve_higher_levels_n_nenjoyment_have_fun_while_playing_and_exercise_your_brain_at_the_same_time_n_nlet_s_begin_get_ready_to_embark_on_the_memory_challenge_and_enjoy_the_rewarding_experience">Objective: Match pairs of hidden cards with the same images on the game board.\n\nGameplay: Click on two cards to reveal their images. Find matching pairs to keep them face-up.\n Memory Challenge: Test your memory as the number of cards increases with each level.\n\nTime and Moves: Record your time and moves to complete the game efficiently.\n\nLevels: Unlock more challenging levels by successfully completing each one. Improve Skills: Memory Challenge enhances memory, focus, and cognitive abilities.\n\nCustomisation: Adjust settings to match your preferences and skill level.\n\nBeat Records: Challenge yourself to beat previous records and achieve higher levels.\n\nEnjoyment: Have fun while playing and exercise your brain at the same time.\n\nLet\'s Begin: Get ready to embark on the Memory Challenge and enjoy the rewarding experience!</string>
+
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
 </resources>
