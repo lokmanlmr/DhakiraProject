@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DhakiraProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+    <style name="welcome_to">
+        <item name="android:textColor">#525252</item>
+        <item name="fontFamily">@font/ibm_plex_sans_semi_bold</item>
+    </style>
+
+    <style name="we_re_here_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#6F6F6F</item>
+        <item name="fontFamily">@font/ibm_plex_sans_semi_bold</item>
+    </style>
+
+    <style name="i_already_h">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#40161616</item>
+    </style>
+
+    <style name="tab_layout_2us">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8D8D8D</item>
+        <item name="fontFamily">@font/ibm_plex_sans_semi_bold</item>
+    </style>
+    <style name="tab_layout_2s">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#161616</item>
+        <item name="fontFamily">@font/ibm_plex_sans_semi_bold</item>
+    </style>
+
+</resources>
