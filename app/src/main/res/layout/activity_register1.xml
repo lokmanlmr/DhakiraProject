@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_active"
+    tools:context=".thefive.registeration.Register1">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="98.21dp"
+        android:layout_height="92.91dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/dhakira_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        android:text="Let's set up your account"
+        android:textSize="14sp"
+        android:textColor="#161616"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageView" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="A few steps ahead to go."
+        android:textSize="14sp"
+        android:textColor="#525252"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textColor="#8D8D8D"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitleTextView" />
+
+    <TextView
+        android:id="@+id/fullNameLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="12sp"
+        android:textColor="#525252"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        android:text="Full Name"
+        app:layout_constraintStart_toStartOf="@+id/enter_email"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+    <EditText
+        android:id="@+id/enter_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        android:hint="Enter your Name"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#A8A8A8"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullNameLabelTextView" />
+
+    <TextView
+        android:id="@+id/genderLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        android:text="Gender"
+        android:textColor="#525252"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/genderSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/enter_email" />
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        app:layout_constraintEnd_toEndOf="@+id/enter_email"
+        app:layout_constraintStart_toStartOf="@+id/enter_email"
+        app:layout_constraintTop_toBottomOf="@+id/genderLabelTextView" />
+
+    <TextView
+        android:id="@+id/dobLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#525252"
+        android:textSize="12sp"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        android:text="Date of Birth"
+        app:layout_constraintStart_toStartOf="@+id/dateOfBirthEditText"
+        app:layout_constraintTop_toBottomOf="@+id/genderSpinner" />
+
+
+    <EditText
+        android:id="@+id/dateOfBirthEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="italic"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        android:hint="mm/dd/yyyy"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#A8A8A8"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dobLabelTextView"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/next"
+        android:id="@+id/nextButton"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateOfBirthEditText" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nextButton" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I already have an account,"
+            android:textAppearance="@style/i_already_h" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Login"
+            android:textSize="14sp"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

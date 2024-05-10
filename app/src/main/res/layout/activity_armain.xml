@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#DF19F2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thefive.ARMainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_active"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/ibm_plex_sans_semi_bold"
+            android:text="VR for Memory Recal"
+            android:textColor="#161616"
+            android:textSize="20sp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/threeeeeeeeeee"
+            android:background="@null"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+
+        android:src="@drawable/sgdhfgjkmnbv"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Journey through time like \n          never before!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/ibm_plex_sans_semi_bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Combines cutting-edge virtual reality\ntechnology with interactive storytelling \n"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/getstartedbtn"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
